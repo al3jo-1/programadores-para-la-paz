@@ -1,0 +1,10 @@
+Pregunta 5 
+ Algoritmo para compartir información confiable en internet:
+
+Buscar la información.
+Revisar la fuente.
+Confirmar que la página sea confiable.
+Comparar la noticia con otras fuentes.
+Verificar la fecha de publicación.
+Compartir solo si la información es verdadera.
+Citar la fuente original al publicar.
