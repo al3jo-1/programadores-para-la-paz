@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>API Comunidad - Semana 6</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; padding: 2rem; }
+      pre { background:#f6f8fa;padding:1rem;border-radius:6px }
+      .btn{display:inline-block;padding:.5rem 1rem;background:#0366d6;color:#fff;border-radius:6px;text-decoration:none}
+    </style>
+  </head>
+  <body>
+    <h1>API Comunidad</h1>
+    <p>Endpoints disponibles:</p>
+    <ul>
+      <li><strong>POST</strong> /registro</li>
+      <li><strong>POST</strong> /incidencia</li>
+    </ul>
+
+    <h2>Probar /registro</h2>
+    <form id="registroForm">
+      <label>Nombre: <input name="nombre" required></label><br><br>
+      <label>Mensaje: <input name="mensaje" required></label><br><br>
+      <button class="btn">Enviar</button>
+    </form>
+
+    <h2>Respuesta</h2>
+    <pre id="output">Sin respuesta aún</pre>
+
+    <script>
+      const out = document.getElementById('output');
+      const form = document.getElementById('registroForm');
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(form));
+        try {
+          const res = await fetch('/registro', {
+            method: 'POST', headers: { 'Content-Type':'application/json' },
+            body: JSON.stringify(data)
+          });
+          const json = await res.json();
+          out.textContent = JSON.stringify(json, null, 2);
+        } catch (err) {
+          out.textContent = 'Error: ' + err.message;
+        }
+      });
+    </script>
+  </body>
+</html>

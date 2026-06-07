@@ -1,0 +1,12 @@
+Respuesta esperada al enviar POST a http://localhost:3000/registro con
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta JSON devuelta por el servidor:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
