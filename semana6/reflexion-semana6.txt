@@ -1,0 +1,7 @@
+Es importante porque permite organizar, almacenar y procesar la información de manera 
+eficiente. Cuando los ciudadanos envían datos de forma estructurada, las plataformas
+pueden analizarlos más fácilmente, identificar problemas o necesidades, generar 
+estadísticas y responder de manera más rápida y precisa. Además, reduce errores 
+en la interpretación de la información y facilita la toma 
+de decisiones basada en datos confiables.
+Nota: cambios aplicados para la entrega — Actividad semana 6.
