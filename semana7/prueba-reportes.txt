@@ -1,0 +1,10 @@
+Al enviar un reporte con POST a http://localhost:3000/reportes, el servidor guarda el reporte en la lista en memoria.
+
+Cuando consulto GET http://localhost:3000/reportes, el servidor devuelve un arreglo JSON con todos los reportes registrados:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
