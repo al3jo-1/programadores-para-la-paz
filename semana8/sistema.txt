@@ -1,0 +1,32 @@
+¿Qué información muestra cada comando?
+
+1. uname -a
+
+Este comando muestra información detallada del sistema operativo y del kernel.
+
+Información que puede mostrar:
+- Nombre del sistema operativo.
+- Nombre del equipo (host).
+- Versión del kernel.
+- Fecha de compilación del kernel.
+- Arquitectura del procesador (32 o 64 bits).
+
+Ejemplo:
+Linux servidor01 6.8.0-31-generic x86_64 GNU/Linux
+
+
+2. whoami
+
+Este comando muestra el nombre del usuario que está utilizando actualmente el sistema.
+
+Ejemplo:
+admin
+
+
+¿Por qué es útil conocer información del sistema cuando se administra un servidor?
+
+Conocer la información del sistema es importante porque permite identificar el sistema 
+operativo, la versión instalada y la arquitectura del servidor. Esto ayuda a instalar 
+programas compatibles, realizar actualizaciones correctamente y solucionar problemas 
+técnicos.
+
