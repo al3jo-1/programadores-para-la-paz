@@ -1,0 +1,10 @@
+Durante este curso aprendí que la tecnología puede ser una herramienta muy útil para 
+fortalecer la participación ciudadana y facilitar la organización comunitaria. 
+También comprendí la importancia de desarrollar soluciones que sean sencillas, 
+accesibles y respondan a necesidades reales. Aprendí cómo se integran el backend, 
+las bases de datos, la automatización y la generación de documentos en una misma 
+aplicación. Además, entendí que proteger la información de los usuarios es fundamental 
+para generar confianza. El uso de metodologías ágiles también me permitió comprender 
+cómo organizar el desarrollo de un proyecto de manera eficiente. En general, el curso 
+me mostró que la tecnología puede contribuir a mejorar la comunicación entre la comunidad 
+y las instituciones cuando se utiliza de forma responsable.
